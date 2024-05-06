@@ -122,8 +122,8 @@ lspReference         none              black
 
 ; Actual text coloring
 Underlined           none              none              underline
-Error                brightwhite       red               bold
-ErrorMsg             brightwhite       red
+Error                red               brightwhite       reverse,bold
+ErrorMsg             red               brightwhite       reverse
 WarningMsg           yellow            none              reverse
 Constant             none              none              bold
 Boolean              red               none              bold
@@ -237,8 +237,8 @@ lspReference         none              brightwhite
 
 ; Actual text coloring
 Underlined           none              none              underline
-Error                brightwhite       red               bold
-ErrorMsg             brightwhite       red
+Error                red               brightwhite       reverse,bold
+ErrorMsg             red               brightwhite       reverse
 WarningMsg           yellow            none              reverse
 Constant             none              none              bold
 Boolean              red               none              bold
