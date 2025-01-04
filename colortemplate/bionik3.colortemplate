@@ -223,7 +223,7 @@ Variant: gui 16
 ; GUI elements
 
 LineNr               none              white
-CursorLineNr         brightwhite       brightblack       bold
+CursorLineNr         brightblack       none              reverse,bold
 FoldColumn           cyan              none              reverse
 Folded               cyan              none              reverse,italic
 ColorColumn          none              brightwhite
